@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  Recharge Reward
+//
+//  Created by RichMan on 9/28/16.
+//  Copyright © 2016 TommyTorvalds. All rights reserved.
+//
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Config.h"
+#import "JSWaiter.h"
+#import "JSON.h"
+#import "UIImageView+AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "DoAlertView.h"
+#import "DatabaseController.h"
+#import "UIViewController+JASidePanel.h"
+#import "VSDropdown.h"
+#import "ZXingObjC.h"
+#import "KGModal.h"
+
+#import "AppDelegate.h"
+#import "AppController.h"
+#import "CommonUtils.h"
+
+
+#define appController [AppController sharedInstance]
+#define commonUtils [CommonUtils shared]
+
+
+
+#endif /* PrefixHeader_pch */
